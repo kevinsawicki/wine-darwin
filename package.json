@@ -5,5 +5,8 @@
   "bin": {
     "wine": "./usr/bin/wine"
   },
+  "scripts" : {
+    "test": "./usr/bin/wine ipconfig"
+  },
   "license": "ISC"
 }
