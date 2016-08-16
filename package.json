@@ -1,0 +1,9 @@
+{
+  "name": "wine-darwin",
+  "version": "1.9.15",
+  "description": "Wine for Mac",
+  "bin": {
+    "wine": "./usr/bin/wine"
+  },
+  "license": "ISC"
+}
