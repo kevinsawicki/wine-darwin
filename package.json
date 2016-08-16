@@ -1,6 +1,6 @@
 {
   "name": "wine-darwin",
-  "version": "1.9.16",
+  "version": "1.9.17-0",
   "description": "Wine for Mac",
   "bin": {
     "wine": "./usr/bin/wine"
