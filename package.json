@@ -6,7 +6,7 @@
     "wine": "./usr/bin/wine"
   },
   "scripts" : {
-    "test": "WINEDLLOVERRIDES=\"mscoree,mshtml=\" ./usr/bin/wine hostname"
+    "test": "./usr/bin/wine hostname"
   },
   "license": "ISC"
 }

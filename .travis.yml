@@ -9,3 +9,6 @@ notifications:
 cache:
   directories:
   - $HOME/.wine
+env:
+  global:
+    - WINEDLLOVERRIDES="mscoree,mshtml="
