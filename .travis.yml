@@ -8,4 +8,4 @@ notifications:
     on_failure: change
 cache:
   directories:
-  - $HOME/.wine/drive_c
+  - $HOME/.wine
