@@ -3,10 +3,10 @@
   "version": "1.9.17-0",
   "description": "Wine for Mac",
   "bin": {
-    "wine": "./usr/bin/wine"
+    "wine": "WINEDLLOVERRIDES=\"mscoree,mshtml=\" ./usr/bin/wine"
   },
   "scripts" : {
-    "test": "./usr/bin/wine hostname"
+    "test": "WINEDLLOVERRIDES=\"mscoree,mshtml=\" ./usr/bin/wine hostname"
   },
   "license": "ISC"
 }
